@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+
+@font-face{
+  font-family: "GmarketSans";
+  src: url(../font/);
+  font-weight: 200;
+  font-style: normal;
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A; 
+}
+

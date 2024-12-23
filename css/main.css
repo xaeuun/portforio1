@@ -1,0 +1,55 @@
+@charset "UTF-8";
+#wrap{overflow: hidden;}
+
+/*common*/
+.inner{max-width:1400px; margin: 0 auto;}
+
+
+/**************************desktop**************************/
+
+header{position: absolute; top:0; left: 0; width: 100%; z-index: 999;}
+nav{color: #ffffff; display: flex; height: 80px; align-items: center; gap: 550px;}
+nav p{border-radius: 50px; border: 1px solid #fff; padding: 0 20px; color: #ffffff;}
+nav h2{color: #ffffff;}
+
+.one{width: 100%; height: 100vh; background-color: #151515; position: relative;}
+.front{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.front h1{color: #ffffff; font-size: 50px;}
+.front p{color: #ffffff; font-size: 50px;}
+.front p span{border-radius: 50px; border: 1px solid #fff; padding: 0 20px; color: #ffffff; font-weight: bold;}
+ 
+.two{width: 100%; height: 100vh; background-color: #006A3E; position: relative;}
+.mid{color: #ffffff; position: absolute; top: 50%; left: 50%; font-size: 25px; transform: translate(-50%, -50%);}
+.mid span{font-weight: bold;}
+.mid1{padding-top: 20px;}
+.mid ul{display: flex; gap: 20px;}
+.mid ul li{color: #006A3E; border-radius: 50px; border: 1px solid #fff; padding: 0 20px; background-color: #ffffff;}
+
+
+.three{width: 100%; height: 100vh; background-color: #151515; position: relative;}
+.about, .etc1, .etc2{color: #ffffff;} 
+
+
+/**************************pad**************************/
+@media screen and (min-width: 768px){
+
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************phone**************************/
+@media screen and (min-width: 1200px){
+
+
+}
